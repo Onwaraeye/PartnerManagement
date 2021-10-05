@@ -1,9 +1,14 @@
 package com.example.partnermanagement;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.sagarkoli.chetanbottomnavigation.chetanBottomNavigation;
@@ -13,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     private static final int other = 1;
     private static final int home = 2;
     private static final int user = 3;
+    private DrawerLayout drawerLayout;
+    private ActionBarDrawerToggle toggle;
 
     chetanBottomNavigation bottomNavigation;
 
@@ -21,12 +28,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setCustomView(R.layout.action_bar_layout);
+
         bottomNavigation = findViewById(R.id.bottom_nav_bar);
 
         bottomNavigation.add(new chetanBottomNavigation.Model(other,R.drawable.other));
         bottomNavigation.add(new chetanBottomNavigation.Model(home,R.drawable.home));
         bottomNavigation.add(new chetanBottomNavigation.Model(user,R.drawable.user));
-
 
         bottomNavigation.setOnShowListener(new chetanBottomNavigation.ShowListener() {
             @Override
@@ -49,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
 
                         break;
                 }
-
             }
         });
         bottomNavigation.setOnClickMenuListener(new chetanBottomNavigation.ClickListener() {
@@ -65,5 +73,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         bottomNavigation.show(home,true);
+
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawer);
+        toggle = new ActionBarDrawerToggle(this,drawerLayout,R.string.open,R.string.close);
+        drawerLayout.addDrawerListener(toggle);
+        toggle.syncState();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (toggle.onOptionsItemSelected(item)){
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
