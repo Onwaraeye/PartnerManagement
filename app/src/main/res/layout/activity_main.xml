@@ -7,305 +7,40 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#E1E1E1">
 
-        <TextView
-            android:id="@+id/id_partner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:background="#3D3D3D"
-            android:text="รหัส 112202111SCB"
-            android:textColor="@color/white" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/bg_top_black"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <!--<LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:orientation="vertical"
-                android:padding="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="ระบบจัดการพาร์ทเนอร์"
-                    android:textColor="@color/white"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:id="@+id/id_partner"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="รหัส 112202111SCB"
-                    android:textColor="@color/white" />
-            </LinearLayout>-->
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="20dp"
-            android:background="@drawable/bg_white"
-            android:orientation="horizontal"
-            android:padding="15dp">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                app:srcCompat="@drawable/ic_balance" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="ยอดเงินคงเหลือ" />
-
-                <TextView
-                    android:id="@+id/tx_balance"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="1,000,000 KIP"
-                    android:textSize="24sp" />
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:tint="#DB1438"
-                    app:srcCompat="@drawable/circle" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:layout_marginStart="5dp"
-                    android:text="Server status"
-                    android:textColor="@color/white" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:tint="#49BE36"
-                    app:srcCompat="@drawable/circle" />
-
-                <TextView
-                    android:id="@+id/tx_activate_user"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:layout_marginStart="5dp"
-                    android:text="100/200 Activ"
-                    android:textColor="@color/white" />
-            </LinearLayout>
-
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
         android:orientation="vertical">
 
-        <TextView
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <com.sagarkoli.chetanbottomnavigation.chetanBottomNavigation
+            android:id="@+id/bottom_nav_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#3D3D3D"
-            android:text="My menu" />
+            android:layout_gravity="bottom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:sk_backgroundBottomColor="#ffffff"
+            app:sk_circleColor="#ffffff"
+            app:sk_countBackgroundColor="#ff6f00"
+            app:sk_countTextColor="#ffffff"
+            app:sk_defaultIconColor="#90a4ae"
+            app:sk_rippleColor="#2f424242"
+            app:sk_selectedIconColor="#3c415e"
+            app:sk_shadowColor="#1f212121" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:id="@+id/menu_pos"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:layout_margin="20dp"
-                android:background="@drawable/bg_menu_white"
-                android:elevation="3dp"
-                android:orientation="vertical"
-                android:padding="25dp">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    app:srcCompat="@drawable/pos" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:gravity="center"
-                    android:text="เครื่อง POS"
-                    android:textColor="@color/black" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/menu_wallet"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:layout_margin="20dp"
-                android:background="@drawable/bg_menu_white"
-                android:elevation="3dp"
-                android:orientation="vertical"
-                android:padding="25dp">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    app:srcCompat="@drawable/wallet" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:gravity="center"
-                    android:text="กระเป๋าเงิน"
-                    android:textColor="@color/black" />
-            </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:id="@+id/menu_slip"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:layout_margin="20dp"
-                android:background="@drawable/bg_menu_white"
-                android:elevation="3dp"
-                android:orientation="vertical"
-                android:padding="25dp">
-
-                <ImageView
-                    android:layout_width="46dp"
-                    android:layout_height="46dp"
-                    android:layout_gravity="center"
-                    app:srcCompat="@drawable/slip" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:gravity="center"
-                    android:textColor="@color/black"
-                    android:text="ชำระบิล" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/menu_system"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:layout_margin="20dp"
-                android:layout_weight="1"
-                android:background="@drawable/bg_menu_white"
-                android:elevation="3dp"
-                android:orientation="vertical"
-                android:padding="25dp">
-
-                <ImageView
-                    android:layout_width="46dp"
-                    android:layout_height="46dp"
-                    android:layout_gravity="center"
-                    app:srcCompat="@drawable/system" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:gravity="center"
-                    android:textColor="@color/black"
-                    android:text="เครื่องมือ" />
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-
-
-    <com.sagarkoli.chetanbottomnavigation.chetanBottomNavigation
-        android:id="@+id/bottom_nav_bar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:sk_backgroundBottomColor="#ffffff"
-        app:sk_circleColor="#ffffff"
-        app:sk_countBackgroundColor="#ff6f00"
-        app:sk_countTextColor="#ffffff"
-        app:sk_defaultIconColor="#90a4ae"
-        app:sk_rippleColor="#2f424242"
-        app:sk_selectedIconColor="#3c415e"
-        app:sk_shadowColor="#1f212121" />
-</LinearLayout>
     <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:layout_gravity="start"
         android:background="@drawable/bg_drawer"
         app:itemTextColor="@color/white"
-        app:menu="@menu/drawer_menu"
-        android:layout_gravity="start"/>
+        app:menu="@menu/drawer_menu" />
 </androidx.drawerlayout.widget.DrawerLayout>

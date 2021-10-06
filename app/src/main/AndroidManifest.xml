@@ -10,8 +10,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PartnerManagement">
-        <activity android:name=".User" />
-        <activity android:name=".Other" />
         <activity android:name=".MainActivity"
             android:theme="@style/ActionBar">
             <intent-filter>
