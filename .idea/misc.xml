@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_credit_card.xml" value="0.19375" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_white_detail.xml" value="0.1631578947368421" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_white_rad10.xml" value="0.1631578947368421" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/status_detail.xml" value="0.1631578947368421" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bg_black_gradius.xml" value="0.19375" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bg_drawer.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bg_menu_white.xml" value="0.19375" />
@@ -12,13 +16,19 @@
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/blank.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/ic_ant_design_logout_outlined.xml" value="0.19375" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/ic_home.xml" value="0.19375" />
-        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/action_bar_layout.xml" value="0.2421875" />
-        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/action_bar_search_layout.xml" value="0.2" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/action_bar_layout.xml" value="0.2" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/action_bar_search_layout.xml" value="0.176" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_customer_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_customer_profile_view_percent.xml" value="0.264" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_customer_profile.xml" value="0.15296052631578946" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_other.xml" value="0.228125" />
-        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_pos.xml" value="0.15296052631578946" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_pos.xml" value="0.2" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_user.xml" value="0.4" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_accounts_customer.xml" value="0.2" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_pos_user.xml" value="0.15296052631578946" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_product.xml" value="0.15296052631578946" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_view_pos_user.xml" value="0.2" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/menu/blank_menu.xml" value="0.2421875" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/menu/drawer_menu.xml" value="0.2421875" />

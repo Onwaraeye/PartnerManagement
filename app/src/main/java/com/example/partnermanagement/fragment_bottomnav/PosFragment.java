@@ -1,33 +1,35 @@
-package com.example.partnermanagement;
+package com.example.partnermanagement.fragment_bottomnav;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
-import android.widget.TextView;
+
+import com.example.partnermanagement.Adapter.AdapterPosUser;
+import com.example.partnermanagement.Model.PosUser;
+import com.example.partnermanagement.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class PosFragment extends Fragment {
 
-
+    RecyclerView list_pos_user;
+    View view;
+    AdapterPosUser adapterPosUser;
 
     public PosFragment() {
 
-    }
-
-
-    public static PosFragment newInstance(String param1, String param2) {
-        PosFragment fragment = new PosFragment();
-        Bundle args = new Bundle();
-
-        fragment.setArguments(args);
-        return fragment;
     }
 
     @Override
@@ -46,6 +48,22 @@ public class PosFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_pos, container, false);
+        view = inflater.inflate(R.layout.fragment_pos, container, false);
+
+        list_pos_user = view.findViewById(R.id.list_pos_user);
+
+        List<PosUser> posUserList = new ArrayList<>();
+
+        for (int i = 0; i < 5; i++){
+            PosUser posUser = new PosUser();
+            posUser.setCustomerID(i+"");
+            posUserList.add(posUser);
+        }
+
+        adapterPosUser = new AdapterPosUser(getActivity(), posUserList);
+        list_pos_user.setLayoutManager(new LinearLayoutManager(getActivity()));
+        list_pos_user.setAdapter(adapterPosUser);
+
+        return view;
     }
 }

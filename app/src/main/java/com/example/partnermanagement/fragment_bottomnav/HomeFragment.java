@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.example.partnermanagement.PosFragment;
 import com.example.partnermanagement.R;
 
 public class HomeFragment extends Fragment {
@@ -17,13 +16,6 @@ public class HomeFragment extends Fragment {
     private View view;
     public HomeFragment() {
 
-    }
-
-    public static HomeFragment newInstance(String param1, String param2) {
-        HomeFragment fragment = new HomeFragment();
-        Bundle args = new Bundle();
-        fragment.setArguments(args);
-        return fragment;
     }
 
     @Override
