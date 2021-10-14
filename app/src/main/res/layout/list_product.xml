@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="10dp"
+    android:layout_marginTop="15dp"
+    android:elevation="5dp"
+    android:background="@drawable/bg_white_rad10"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:background="@drawable/bg_white_rad10">
+        android:padding="10dp">
 
         <ImageView
             android:id="@+id/imageView3"
@@ -32,18 +33,19 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/text_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="1"
+            android:textSize="18sp"
             android:gravity="end"
-            android:text="TextView" />
+            android:text="x.x %" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             app:srcCompat="@drawable/button_detail" />
     </LinearLayout>
 

@@ -12,10 +12,14 @@
         android:theme="@style/Theme.PartnerManagement">
         <activity
             android:name=".CustomerProfileViewPercent"
-            android:exported="true" />
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".CustomerProfile"
-            android:exported="true"></activity>
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".MainActivity"
             android:theme="@style/ActionBar">

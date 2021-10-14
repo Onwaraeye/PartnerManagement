@@ -54,7 +54,7 @@ public class PosFragment extends Fragment {
 
         List<PosUser> posUserList = new ArrayList<>();
 
-        for (int i = 0; i < 5; i++){
+        for (int i = 0; i < 9; i++){
             PosUser posUser = new PosUser();
             posUser.setCustomerID(i+"");
             posUserList.add(posUser);

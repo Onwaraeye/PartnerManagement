@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -23,11 +25,13 @@ public class CustomerProfile extends AppCompatActivity {
     RecyclerView list_acc_customer;
     AdapterListCustomer adapterListCustomer;
     ImageView arrow_back,percent;
+    Context mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customer_profile);
+        mContext = getApplication();
 
         arrow_back = findViewById(R.id.ic_arrow_back);
         arrow_back.setOnClickListener(new View.OnClickListener() {
@@ -42,11 +46,19 @@ public class CustomerProfile extends AppCompatActivity {
             }
         });
         percent = findViewById(R.id.ic_percent);
+        percent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplication(), CustomerProfileViewPercent.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                getApplication().startActivity(intent);
+            }
+        });
 
 
         list_acc_customer = findViewById(R.id.list_acc_customer);
         List<PosUser> posUserList = new ArrayList<>();
-        for (int i = 0; i < 5; i++){
+        for (int i = 0; i < 9; i++){
             PosUser posUser = new PosUser();
             posUser.setCustomerID(i+"");
             posUserList.add(posUser);

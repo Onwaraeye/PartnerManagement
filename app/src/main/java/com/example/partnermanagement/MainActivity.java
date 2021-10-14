@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -35,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         ///////////////toolbar
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
                                 , Gravity.CENTER);
                         tx_custom_view.setText("ระบบจัดการพาร์ทเนอร์");
                         getSupportActionBar().setCustomView(tx_custom_view,params);
+                        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
                         break;
                     case user:
                         fragment = new UserFragment();

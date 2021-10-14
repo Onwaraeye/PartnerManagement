@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 import com.example.partnermanagement.R;
 
 public class HomeFragment extends Fragment {
-    private LinearLayout menu_pos;
+    private LinearLayout menu_pos,menu_wallet,menu_slip,menu_system;
     private View view;
     public HomeFragment() {
 
@@ -35,7 +35,18 @@ public class HomeFragment extends Fragment {
             public void onClick(View view) {
                 PosFragment posFragment= new PosFragment();
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragment_container, posFragment, "findThisFragment")
+                        .replace(R.id.fragment_container, posFragment, "posFragment")
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
+        menu_wallet = view.findViewById(R.id.menu_wallet);
+        menu_wallet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                WalletFragment walletFragment= new WalletFragment();
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_container, walletFragment, "walletFragment")
                         .addToBackStack(null)
                         .commit();
             }
