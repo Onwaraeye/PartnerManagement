@@ -19,7 +19,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:src="@drawable/circle" />
 
         <TextView
             android:id="@+id/text_product"
@@ -46,7 +46,8 @@
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/button_detail" />
+            app:srcCompat="@drawable/ic_baseline_more_vert_24"
+            app:tint="#b2b2b2" />
     </LinearLayout>
 
 </LinearLayout>

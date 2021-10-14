@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DEDEDE"
-    tools:context=".CustomerProfileViewPercent">
-
+    tools:context=".MainWallet">
 
     <LinearLayout
         android:id="@+id/linearLayout3"
@@ -39,7 +38,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="MAIN WALLET"
+                android:text="CID: SKT304"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -67,8 +66,9 @@
         android:background="#3D3D3D"
         android:gravity="center"
         android:paddingBottom="70dp"
+        android:text="SMART POS"
         android:textColor="@color/white"
-        android:textSize="16sp"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
@@ -138,10 +138,9 @@
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/list_product"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+            android:id="@+id/list_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,2 +1,2 @@
 rootProject.name = "PartnerManagement"
-include ':app'
+include ':app',':chetanbottomnavigation'

@@ -11,23 +11,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PartnerManagement">
         <activity
-            android:name=".CustomerProfileViewPercent"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".CustomerProfile"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".MainActivity"
-            android:theme="@style/ActionBar">
+            android:name=".ControlCard"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainWallet"
+            android:exported="false" />
+        <activity
+            android:name=".Dashglo"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerProfileViewPercent"
+            android:exported="true" />
+        <activity
+            android:name=".CustomerProfile"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/ActionBar">
+
         </activity>
     </application>
 
