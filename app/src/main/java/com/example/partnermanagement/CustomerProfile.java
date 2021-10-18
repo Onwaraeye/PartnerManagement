@@ -9,13 +9,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.partnermanagement.Adapter.AdapterListCustomer;
-import com.example.partnermanagement.Adapter.AdapterPosUser;
 import com.example.partnermanagement.Model.PosUser;
-import com.example.partnermanagement.fragment_bottomnav.PosFragment;
 
 import java.util.ArrayList;
 import java.util.List;

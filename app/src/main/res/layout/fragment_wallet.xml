@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/bg_black_gradient"
-    tools:context=".fragment_bottomnav.WalletFragment">
+    tools:context=".FragmentBottomNav.WalletFragment">
 
 
     <androidx.cardview.widget.CardView

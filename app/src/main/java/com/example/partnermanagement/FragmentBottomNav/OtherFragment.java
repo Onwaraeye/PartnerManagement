@@ -1,4 +1,4 @@
-package com.example.partnermanagement.fragment_bottomnav;
+package com.example.partnermanagement.FragmentBottomNav;
 
 import android.os.Bundle;
 

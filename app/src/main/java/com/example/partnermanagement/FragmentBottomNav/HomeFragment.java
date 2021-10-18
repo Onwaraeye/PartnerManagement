@@ -1,4 +1,4 @@
-package com.example.partnermanagement.fragment_bottomnav;
+package com.example.partnermanagement.FragmentBottomNav;
 
 import android.os.Bundle;
 
@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 import com.example.partnermanagement.R;
 
 public class HomeFragment extends Fragment {
-    private LinearLayout menu_pos,menu_wallet,menu_slip,menu_system;
+    private LinearLayout menu_pos,menu_wallet,menu_bill,menu_system;
     private View view;
     public HomeFragment() {
 
@@ -47,6 +47,17 @@ public class HomeFragment extends Fragment {
                 WalletFragment walletFragment= new WalletFragment();
                 getActivity().getSupportFragmentManager().beginTransaction()
                         .replace(R.id.fragment_container, walletFragment, "walletFragment")
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
+        menu_bill = view.findViewById(R.id.menu_bill);
+        menu_bill.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                BillPaymentFragment billPaymentFragment= new BillPaymentFragment();
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_container, billPaymentFragment, "billFragment")
                         .addToBackStack(null)
                         .commit();
             }

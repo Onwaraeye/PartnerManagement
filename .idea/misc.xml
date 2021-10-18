@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_credit_card.xml" value="0.1985" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bg_white.xml" value="0.21" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bill.xml" value="0.21" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/ic_uil_bill.xml" value="0.21" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/ic_user.xml" value="0.21" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/action_bar_layout.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_bill_payment_electricity.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_control_card.xml" value="0.33" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_dashglo.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_electricity_bill.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_main.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_main_wallet.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_bill.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_bill_electricity_detail.xml" value="0.25" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_bill_payment.xml" value="0.33" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_home.xml" value="0.1983695652173913" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_credit_card.xml" value="0.19375" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_white_detail.xml" value="0.1631578947368421" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_white_rad10.xml" value="0.1631578947368421" />

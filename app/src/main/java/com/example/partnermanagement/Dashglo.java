@@ -36,16 +36,14 @@ public class Dashglo extends AppCompatActivity {
         arrow_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                if ( getFragmentManager().getBackStackEntryCount() > 0)
+                {
+                    getFragmentManager().popBackStack();
+                    return;
+                }
+                onBackPressed();
             }
         });
-
-        View layout_bg = findViewById(R.id.layout_bg);
-        GradientDrawable gd = new GradientDrawable(
-                GradientDrawable.Orientation.TOP_BOTTOM,
-                new int[] {0xFF616261,0xFF131313});
-        gd.setCornerRadius(10);
-        layout_bg.setBackgroundDrawable(gd);
 
         list_acc_customer = findViewById(R.id.list_acc_customer);
         List<PosUser> posUserList = new ArrayList<>();
