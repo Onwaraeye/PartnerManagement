@@ -6,9 +6,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import com.example.partnermanagement.Adapter.AdapterListCustomer;
 import com.example.partnermanagement.Model.PosUser;
@@ -18,10 +20,10 @@ import java.util.List;
 
 public class Dashglo extends AppCompatActivity {
 
-    RecyclerView list_acc_customer;
-    AdapterListCustomer adapterListCustomer;
-    ImageView arrow_back,percent;
-    Context mContext;
+    private RecyclerView list_acc_customer;
+    private AdapterListCustomer adapterListCustomer;
+    private ImageView arrow_back;
+    private Context mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,24 +36,16 @@ public class Dashglo extends AppCompatActivity {
         arrow_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if ( getFragmentManager().getBackStackEntryCount() > 0)
-                {
-                    getFragmentManager().popBackStack();
-                    return;
-                }
-                onBackPressed();
-            }
-        });
-        percent = findViewById(R.id.ic_percent);
-        percent.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplication(), CustomerProfileViewPercent.class);
-                //intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                getApplication().startActivity(intent);
+
             }
         });
 
+        View layout_bg = findViewById(R.id.layout_bg);
+        GradientDrawable gd = new GradientDrawable(
+                GradientDrawable.Orientation.TOP_BOTTOM,
+                new int[] {0xFF616261,0xFF131313});
+        gd.setCornerRadius(10);
+        layout_bg.setBackgroundDrawable(gd);
 
         list_acc_customer = findViewById(R.id.list_acc_customer);
         List<PosUser> posUserList = new ArrayList<>();

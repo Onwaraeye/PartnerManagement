@@ -3,29 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_white_rad10.xml" value="0.22083333333333333" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/detail_bg.xml" value="0.22083333333333333" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bg_black_gradient.xml" value="0.22083333333333333" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bg_white.xml" value="0.22083333333333333" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bg_white_radtop.xml" value="0.22083333333333333" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/circle.xml" value="0.22083333333333333" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/line.xml" value="0.22083333333333333" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_control_card.xml" value="0.22" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_customer_profile.xml" value="0.2046875" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_customer_profile_view_percent.xml" value="0.2046875" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_dashglo.xml" value="0.33" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_main_wallet.xml" value="0.2046875" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_home.xml" value="0.387037037037037" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_pos.xml" value="0.2046875" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_wallet.xml" value="0.25" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_accounts_customer.xml" value="0.2046875" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_control_active.xml" value="0.5" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_pos_user.xml" value="0.2046875" />
-        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_product.xml" value="0.2046875" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_credit_card.xml" value="0.19375" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_white_detail.xml" value="0.1631578947368421" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_white_rad10.xml" value="0.1631578947368421" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/circle_red.xml" value="0.1631578947368421" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1631578947368421" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/status_detail.xml" value="0.1631578947368421" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bg_black_gradius.xml" value="0.19375" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bg_drawer.xml" value="0.25833333333333336" />
@@ -35,12 +17,17 @@
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bg_white.xml" value="0.19375" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/blank.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/ic_ant_design_logout_outlined.xml" value="0.19375" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1631578947368421" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/ic_home.xml" value="0.19375" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1631578947368421" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/action_bar_layout.xml" value="0.2" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/action_bar_search_layout.xml" value="0.176" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_control_card.xml" value="0.2" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_customer_profile.xml" value="0.2" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_customer_profile_view_percent.xml" value="0.2" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_dashglo.xml" value="0.15296052631578946" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_bill_payment.xml" value="0.15296052631578946" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_customer_profile.xml" value="0.15296052631578946" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_other.xml" value="0.228125" />
@@ -48,6 +35,7 @@
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_user.xml" value="0.4" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_wallet.xml" value="0.264" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_accounts_customer.xml" value="0.2" />
+        <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_control_active.xml" value="0.536" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_pos_user.xml" value="0.15296052631578946" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_product.xml" value="0.264" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_view_pos_user.xml" value="0.2" />

@@ -52,6 +52,7 @@
         android:paddingEnd="40dp">
 
         <LinearLayout
+            android:id="@+id/layout_bg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_credit_card"
