@@ -23,7 +23,6 @@ public class BillPaymentFragment extends Fragment {
 
     private LinearLayout menu_water_bill,menu_electricity_bill;
     private View view;
-    private Context mContext;
 
     public BillPaymentFragment() {
 

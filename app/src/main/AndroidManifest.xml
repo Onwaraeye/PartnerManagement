@@ -11,22 +11,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PartnerManagement"
         tools:replace="android:label">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashActivity"/>
+        <activity android:name=".ReportSystemProblems" />
+        <activity android:name=".EditProfile" />
         <activity
             android:name=".BillPaymentElectricity"
             android:exported="false" />
         <activity
             android:name=".ControlCard"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainWallet"
             android:exported="false" />
         <activity
             android:name=".Dashglo"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".CustomerProfileViewPercent"
             android:exported="true" />
@@ -36,11 +42,7 @@
         <activity
             android:name=".MainActivity"
             android:theme="@style/ActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
