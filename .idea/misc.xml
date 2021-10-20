@@ -3,9 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/TKAMTORN/.gradle/caches/transforms-2/files-2.1/1fb9d492ddb91673cc53e8978f2f644d/swipe-button-0.8.3/res/drawable/shape_rounded.xml" value="0.2165" />
+        <entry key="..\:/Users/TKAMTORN/.gradle/caches/transforms-2/files-2.1/bf08c1259ab9ee940ba086a15c478905/jetified-swipe-button-0.8.3/res/drawable/shape_button.xml" value="0.2165" />
+        <entry key="..\:/Users/TKAMTORN/.gradle/caches/transforms-2/files-2.1/bf08c1259ab9ee940ba086a15c478905/jetified-swipe-button-0.8.3/res/drawable/shape_rounded.xml" value="0.2165" />
         <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_credit_card.xml" value="0.1985" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_white_rad10.xml" value="0.2165" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_white_rad5.xml" value="0.2165" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/circle_stoke.xml" value="0.2165" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bg_button_slide.xml" value="0.2165" />
         <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bg_white.xml" value="0.21" />
         <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/bill.xml" value="0.21" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/ic_check.xml" value="0.2165" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/ic_ellipse.xml" value="0.2165" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/ic_phone.xml" value="0.2165" />
         <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/ic_uil_bill.xml" value="0.21" />
         <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/drawable/ic_user.xml" value="0.21" />
         <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/action_bar_layout.xml" value="0.1983695652173913" />
@@ -18,7 +28,14 @@
         <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_bill.xml" value="0.17798913043478262" />
         <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_bill_electricity_detail.xml" value="0.25" />
         <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_bill_payment.xml" value="0.33" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_bill_payment_history.xml" value="0.209375" />
         <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_home.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_manage_system.xml" value="0.22" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_pos.xml" value="0.1763157894736842" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_user.xml" value="0.22" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/fragment_wallet.xml" value="0.1763157894736842" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_accounts_customer.xml" value="1.0" />
+        <entry key="..\:/Users/TKAMTORN/Documents/GitHub/PartnerManagement/app/src/main/res/layout/list_bill.xml" value="0.25" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_credit_card.xml" value="0.19375" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_white_detail.xml" value="0.1631578947368421" />
         <entry key="..\:/Users/Tong/Documents/GitHub/PartnerManagement/app/src/main/res/drawable-v24/bg_white_rad10.xml" value="0.1631578947368421" />

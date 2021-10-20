@@ -9,19 +9,24 @@
         android:label="ระบบจัดการพาร์ทเนอร์"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PartnerManagement">
+        android:theme="@style/Theme.PartnerManagement"
+        tools:replace="android:label">
         <activity
             android:name=".BillPaymentElectricity"
             android:exported="false" />
         <activity
             android:name=".ControlCard"
-            android:exported="true"></activity>
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".MainWallet"
             android:exported="false" />
         <activity
             android:name=".Dashglo"
-            android:exported="true"></activity>
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".CustomerProfileViewPercent"
             android:exported="true" />

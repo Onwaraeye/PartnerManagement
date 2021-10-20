@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.partnermanagement.FragmentBottomNav.BillElectricityDetailFragment;
+import com.example.partnermanagement.FragmentBottomNav.BillPaymentHistoryFragment;
 import com.google.android.material.tabs.TabLayout;
 
 public class BillPaymentElectricity extends AppCompatActivity {
@@ -36,7 +37,7 @@ public class BillPaymentElectricity extends AppCompatActivity {
                     fragment = new BillElectricityDetailFragment();
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container2,fragment).commit();
                 }else if(tabLayout.getSelectedTabPosition() == 1){
-                    fragment = new BillElectricityDetailFragment();
+                    fragment = new BillPaymentHistoryFragment();
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container2,fragment).commit(); }
             }
 
@@ -51,7 +52,7 @@ public class BillPaymentElectricity extends AppCompatActivity {
                     fragment = new BillElectricityDetailFragment();
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container2,fragment).commit();
                 }else if(tabLayout.getSelectedTabPosition() == 1){
-                    fragment = new BillElectricityDetailFragment();
+                    fragment = new BillPaymentHistoryFragment();
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container2,fragment).commit(); }
             }
         });

@@ -62,6 +62,17 @@ public class HomeFragment extends Fragment {
                         .commit();
             }
         });
+        menu_system = view.findViewById(R.id.menu_system);
+        menu_system.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ManageSystemFragment manageSystemFragment= new ManageSystemFragment();
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_container, manageSystemFragment, "manageSystemFragment")
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
         return view;
     }
 }
