@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 import com.example.partnermanagement.ControlCard;
 import com.example.partnermanagement.Dashglo;
+import com.example.partnermanagement.MainWallet;
 import com.example.partnermanagement.R;
 
 public class WalletFragment extends Fragment {
@@ -58,7 +59,7 @@ public class WalletFragment extends Fragment {
         button_trading_wallet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), ControlCard.class);
+                Intent intent = new Intent(getActivity(), MainWallet.class);
                 getActivity().startActivity(intent);
             }
         });

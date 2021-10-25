@@ -44,6 +44,14 @@ public class Dashglo extends AppCompatActivity {
                 onBackPressed();
             }
         });
+        LinearLayout control_card = findViewById(R.id.control_card);
+        control_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(mContext, ControlCard.class);
+                mContext.startActivity(intent);
+            }
+        });
 
         list_acc_customer = findViewById(R.id.list_acc_customer);
         List<PosUser> posUserList = new ArrayList<>();

@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.partnermanagement.Adapter.AdapterListCustomer;
 import com.example.partnermanagement.Adapter.AdapterProduct;
 import com.example.partnermanagement.Model.PosUser;
 
@@ -17,16 +16,15 @@ import java.util.List;
 
 public class CustomerProfileViewPercent extends AppCompatActivity {
 
-    RecyclerView list_product;
-    AdapterProduct adapterProduct;
-    ImageView arrow_back;
+    private RecyclerView list_product;
+    private AdapterProduct adapterProduct;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customer_profile_view_percent);
 
-        arrow_back = findViewById(R.id.ic_arrow_back);
+        ImageView arrow_back = findViewById(R.id.ic_arrow_back);
         arrow_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
